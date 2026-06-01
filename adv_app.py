@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import joblib
 model=pickle.load(open('lr.sav','rb'))
 st.title('Sales Prediction App')
 #Input features
